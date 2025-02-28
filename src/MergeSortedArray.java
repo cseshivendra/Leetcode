@@ -78,7 +78,7 @@ class Main {
                 brr[i] = Integer.parseInt(input2[i]);
             }
 
-            Solution ob = new Solution();
+            MajorityElementsL ob = new MajorityElementsL();
             int[] res = ob.mergeNsort(arr, brr);
 
             // Printing the result
